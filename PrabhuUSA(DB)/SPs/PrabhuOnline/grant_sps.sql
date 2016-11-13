@@ -1,0 +1,17 @@
+grant execute on spa_MobileGetIFSC to prabhu_online_user
+grant execute on spa_MobileVerifyDeposit to prabhu_online_user
+grant execute on spa_MobileSaveTransaction to prabhu_online_user
+grant execute on spa_MobileGetTransaction to prabhu_online_user
+grant execute on spa_MobileGetPayoutServiceType to prabhu_online_user
+grant execute on spa_MobileGetPayoutBankDetail to prabhu_online_user
+grant execute on spa_MobileGetPayoutAgent to prabhu_online_user
+grant execute on spa_MobileGetBeneficiaryDetail to prabhu_online_user
+grant execute on spa_MobileExistCustomer to prabhu_online_user
+grant execute on spa_MobileEmail to prabhu_online_user
+grant execute on spa_MobileCustomerDetail to prabhu_online_user
+
+grant execute on spa_MobileCalcFee to prabhu_online_user
+grant execute on spa_MobileAuthentication to prabhu_online_user
+grant execute on spa_MobileAgentList to prabhu_online_user
+
+

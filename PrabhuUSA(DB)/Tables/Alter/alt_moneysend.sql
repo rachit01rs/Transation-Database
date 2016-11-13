@@ -1,0 +1,26 @@
+ALTER TABLE moneysend
+ALTER COLUMN branch_code VARCHAR(60) 
+
+ALTER TABLE moneysend
+ALTER COLUMN receiverID VARCHAR(100) 
+
+ALTER TABLE moneysend
+ALTER COLUMN TestQuestion VARCHAR(1000) 
+
+ALTER TABLE moneysend
+ALTER COLUMN rbankname VARCHAR(200) 
+
+ALTER TABLE moneysend
+ALTER COLUMN rbankbranch VARCHAR(500) 
+
+ALTER TABLE moneysend
+ALTER COLUMN rbankactype VARCHAR(200) 
+
+ALTER TABLE moneysend
+ALTER COLUMN receiver_mobile VARCHAR(50) 
+
+ALTER TABLE moneysend
+ALTER COLUMN digital_id_sender VARCHAR(200)
+
+ALTER TABLE moneysend
+ALTER COLUMN ReciverMessage VARCHAR(1000)

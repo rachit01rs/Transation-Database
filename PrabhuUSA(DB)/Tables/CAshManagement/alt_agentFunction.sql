@@ -1,0 +1,1 @@
+    ALTER TABLE agent_function ADD cash_vault VARCHAR(50),customer_refund_ledger VARCHAR(50)

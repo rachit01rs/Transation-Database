@@ -1,0 +1,7 @@
+ALTER TABLE moneySend ADD  FreeSMS CHAR(1)
+ALTER TABLE cancelMoneySend ADD  FreeSMS CHAR(1)
+ALTER TABLE delMoneysend ADD  FreeSMS CHAR(1)
+ALTER TABLE moneysend_arch1 ADD  FreeSMS CHAR(1)
+ALTER TABLE moneysend_arch1_audit ADD  FreeSMS CHAR(1)
+ALTER TABLE moneysend_audit ADD  FreeSMS CHAR(1)
+ALTER TABLE customerDetail ADD  FreeSMS CHAR(1)

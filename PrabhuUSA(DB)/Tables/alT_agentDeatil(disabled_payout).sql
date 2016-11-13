@@ -1,0 +1,1 @@
+alter table agentdetail add disable_payout char(1)

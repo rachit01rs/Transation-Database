@@ -1,0 +1,5 @@
+ALTER TABLE tbl_FTP_Import_File_Data ADD ho_dollar_rate MONEY,
+agent_settlement_rate MONEY,exchangerate MONEY,today_dollar_rate MONEY,round_by INT,ho_cost_send_rate MONEY,
+ho_premium_send_rate MONEY,ho_premium_payout_rate MONEY,agent_customer_diff_value MONEY,agent_sending_rate_margin MONEY,
+agent_payout_rate_margin MONEY,agent_sending_cust_exchangerate MONEY,agent_payout_agent_cust_rate MONEY,
+ho_exrate_applied_type VARCHAR(20) ,PAYOUTCURRENCY VARCHAR(3) 

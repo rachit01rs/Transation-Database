@@ -1,0 +1,1 @@
+alter table moneysend add API_tokenID varchar(50)

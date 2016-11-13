@@ -1,0 +1,7 @@
+ALTER TABLE dbo.moneySend ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.delMoneysend ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.cancelMoneySend ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.moneysend_arch1 ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.moneysend_audit ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.moneysend_arch1_audit ADD picture_id_type VARCHAR(50)
+ALTER TABLE dbo.customerDetail ADD picture_id_type VARCHAR(50)

@@ -1,0 +1,7 @@
+ALTER TABLE moneySend ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE cancelMoneySend ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE delMoneysend ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE moneysend_arch1 ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE moneysend_arch1_audit ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE moneysend_audit ADD  ben_bank_branch_id VARCHAR(50)
+ALTER TABLE customerDetail ADD  ben_bank_branch_id VARCHAR(50)

@@ -1,0 +1,12 @@
+create table tbl_partner_map (PartnerAgent varchar(50),PartnerCountry varchar(50))
+
+insert into tbl_partner_map(partnerAgent,partnerCountry)
+values('20100021','Bangladesh')
+insert into tbl_partner_map(partnerAgent,partnerCountry)
+values('20100021','Pakistan')
+insert into tbl_partner_map(partnerAgent,partnerCountry)
+values('20100021','Indonesia')
+insert into tbl_partner_map(partnerAgent,partnerCountry)
+values('20100021','Philipines')
+insert into tbl_partner_map(partnerAgent,partnerCountry)
+values('20100021','Singapore')

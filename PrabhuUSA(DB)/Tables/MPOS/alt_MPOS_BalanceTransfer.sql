@@ -1,0 +1,1 @@
+ALTER TABLE dbo.MPOS_BalanceTransfer ADD InvoiceNO VARCHAR(50) 

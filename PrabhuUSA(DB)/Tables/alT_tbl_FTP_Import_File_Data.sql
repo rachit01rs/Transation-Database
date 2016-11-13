@@ -1,0 +1,1 @@
+ALTER TABLE dbo.tbl_FTP_Import_File_Data ADD cancel_date DATETIME, cancel_by VARCHAR(50)

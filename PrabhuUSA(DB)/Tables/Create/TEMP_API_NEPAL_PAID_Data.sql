@@ -1,0 +1,121 @@
+
+/****** Object:  Table [dbo].[TEMP_API_NEPAL_PAID_Data]    Script Date: 12/24/2014 02:48:04 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TEMP_API_NEPAL_PAID_Data](
+	[tranno] [int] NOT NULL,
+	[refno] [varchar](50) NOT NULL,
+	[agentid] [varchar](50) NOT NULL,
+	[agentname] [varchar](100) NULL,
+	[Branch_code] [varchar](50) NOT NULL,
+	[Branch] [varchar](100) NULL,
+	[SenderName] [varchar](100) NOT NULL,
+	[SenderAddress] [varchar](200) NULL,
+	[SenderPhoneno] [varchar](50) NULL,
+	[senderFax] [varchar](50) NULL,
+	[SenderCity] [varchar](100) NULL,
+	[SenderCountry] [varchar](50) NULL,
+	[SenderEmail] [varchar](100) NULL,
+	[SenderCompany] [varchar](100) NULL,
+	[senderPassport] [varchar](50) NULL,
+	[senderVisa] [varchar](50) NULL,
+	[ReceiverName] [varchar](100) NULL,
+	[ReceiverAddress] [varchar](100) NULL,
+	[ReceiverPhone] [varchar](50) NULL,
+	[ReceiverCity] [varchar](100) NULL,
+	[ReceiverCountry] [varchar](50) NULL,
+	[ReceiverEMail] [varchar](50) NULL,
+	[ReceiverIDDescription] [varchar](50) NULL,
+	[ReceiverID] [varchar](50) NULL,
+	[DOT] [datetime] NULL,
+	[DOtTime] [varchar](50) NULL,
+	[paidAmt] [money] NULL,
+	[paidCType] [varchar](50) NULL,
+	[receiveAmt] [money] NULL,
+	[receiveCType] [varchar](50) NULL,
+	[ExchangeRate] [money] NULL,
+	[Today_Dollar_rate] [money] NULL,
+	[Dollar_Amt] [money] NULL,
+	[SCharge] [money] NULL,
+	[ReciverMessage] [varchar](1000) NULL,
+	[TestQuestion] [varchar](200) NULL,
+	[TestAnswer] [varchar](200) NULL,
+	[SenderBankID] [varchar](50) NULL,
+	[SenderBankName] [varchar](100) NULL,
+	[SenderBankBranch] [varchar](100) NULL,
+	[SenderBankVoucherNo] [varchar](100) NULL,
+	[paymentType] [varchar](50) NULL,
+	[rBankID] [varchar](50) NULL,
+	[rBankName] [varchar](100) NULL,
+	[rBankBranch] [varchar](500) NULL,
+	[rBankACNo] [varchar](50) NULL,
+	[rBankAcType] [varchar](200) NULL,
+	[otherCharge] [money] NULL,
+	[TransStatus] [varchar](50) NULL,
+	[status] [varchar](50) NULL,
+	[SEmpID] [varchar](50) NULL,
+	[bankCommission] [money] NULL,
+	[TotalRoundAmt] [money] NULL,
+	[TransferType] [varchar](50) NULL,
+	[paidBy] [varchar](50) NULL,
+	[paidDate] [datetime] NULL,
+	[paidTime] [varchar](50) NULL,
+	[PODDate] [datetime] NULL,
+	[senderCommission] [money] NULL,
+	[receiverCommission] [money] NULL,
+	[approve_by] [varchar](50) NULL,
+	[receiveAgentID] [varchar](50) NULL,
+	[confirmDate] [datetime] NULL,
+	[local_dot] [datetime] NULL,
+	[lock_status] [varchar](50) NULL,
+	[lock_dot] [datetime] NULL,
+	[lock_by] [varchar](50) NULL,
+	[sender_mobile] [varchar](20) NULL,
+	[receiver_mobile] [varchar](20) NULL,
+	[ip_address] [varchar](50) NULL,
+	[ho_dollar_rate] [money] NULL,
+	[request_for_new_account] [char](1) NULL,
+	[digital_id_sender] [varchar](100) NULL,
+	[digital_id_payout] [varchar](100) NULL,
+	[agent_settlement_rate] [money] NULL,
+	[agent_ex_gain] [money] NULL,
+	[senderSalary] [varchar](100) NULL,
+	[ReceiverRelation] [varchar](100) NULL,
+	[SenderNativeCountry] [varchar](50) NULL,
+	[agent_dollar_rate] [money] NULL,
+	[expected_payoutagentid] [varchar](50) NULL,
+	[ben_bank_id] [varchar](50) NULL,
+	[ben_bank_name] [varchar](200) NULL,
+	[paid_agent_id] [varchar](50) NULL,
+	[send_sms] [char](1) NULL,
+	[agent_receiverCommission] [money] NULL,
+	[agent_receiverComm_Currency] [char](1) NULL,
+	[agent_receiverSCommission] [money] NULL,
+	[paid_date_usd_rate] [money] NULL,
+	[source_of_income] [varchar](100) NULL,
+	[reason_for_remittance] [varchar](100) NULL,
+	[isIRH_trn] [char](1) NULL,
+	[receiverID_placeOfIssue] [varchar](50) NULL,
+	[payout_settle_usd] [float] NULL,
+	[paid_beneficiary_ID_type] [varchar](100) NULL,
+	[paid_beneficiary_ID_number] [varchar](100) NULL,
+	[confirm_process_id] [varchar](150) NULL,
+	[id_issue_date] [datetime] NULL,
+	[Date_of_Birth] [datetime] NULL
+) ON [PRIMARY]
+SET ANSI_PADDING OFF
+ALTER TABLE [dbo].[TEMP_API_NEPAL_PAID_Data] ADD [Download_Process_id] [varchar](150) NULL
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

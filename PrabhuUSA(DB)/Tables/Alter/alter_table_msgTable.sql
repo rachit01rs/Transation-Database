@@ -1,0 +1,1 @@
+ALTER TABLE msgTable ADD displayto CHAR(1)
